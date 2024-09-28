@@ -19,6 +19,6 @@ func main() {
 	})
 
 	// serve traffic
-	slog.Info("Server starting up...")
+	slog.Info("Server starting on localhost:3001 ...")
 	http.ListenAndServe(":3001", r)
 }
