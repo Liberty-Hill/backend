@@ -10,6 +10,6 @@ COPY *.go ./
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o server
 
-EXPOSE 80
+EXPOSE 3001
 
 CMD ["./server"]
